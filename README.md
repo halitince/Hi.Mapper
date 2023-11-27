@@ -6,7 +6,7 @@
 
 Install the package with [NuGet]
 
-    Install-Package HashInt
+    Install-Package HiMapper
 
 ## Usage
 

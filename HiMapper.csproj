@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+
+	  <Title>HiMapper</Title>
+	  <Version>1.1.0</Version>
+	  <Authors>halitince</Authors>
+	  <Company>halitince</Company>
+	  <Product>HiMapper</Product>
+	  <Description>HiMapper, Mapper</Description>
+	  <PackageProjectUrl>https://github.com/halitince</PackageProjectUrl>
+	  <PackageIcon>icon.png</PackageIcon>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/halitince</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>hi, mapper, automapper</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <AssemblyName>HiMapper</AssemblyName>
+	  <RootNamespace>Hi.Tools</RootNamespace>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HashInt" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon.png">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+    <None Update="README.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+
+</Project>

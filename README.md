@@ -27,4 +27,7 @@ mapper without some properties (Sample: Password, Id)
 ```C#
 Mapper.Map(source, target, x => new { x.Id, x.Password });
 ```
+```C#
+Mapper.Map(source, target, new List<string> { "Id", "Password" });
+```
 
